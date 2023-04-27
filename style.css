@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.general {
+    background-image: linear-gradient(to left, rgb(14, 82, 210), rgb(48, 72, 116), rgb(84, 115, 173));
+}
+
+.contenedor {
+    margin-left: 500px;
+    margin-top: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px;
+    padding: 15px;
+    width: 40%;
+    background-color: darkgrey;
+}
+
+.ingreso {
+    display: flex;
+    justify-content: center;
+}
+
+#numero1 {
+    box-shadow: 5px 5px 15px;
+    text-align: center;
+    margin-right: 20px;
+    height: 150px;
+    width: 195px;
+    font-size: 45px;
+}
+
+#numero2 {
+    box-shadow: 5px 5px 15px;
+    text-align: center;
+    height: 150px;
+    width: 195px;
+    font-size: 45px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.sumar, .restar, .multiplicar, .dividir {
+    box-shadow: 5px 5px 15px;
+    font-size: 25px;
+    height: 60px;
+    width: 55px;
+    margin-top: 30px;
+}
+
+.resultado-padre {
+    display: flex;
+    justify-content: center;
+}
+
+#resultado {
+    box-shadow: 5px 5px 15px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    height: 60px;
+    width: 350px;
+}
+
+.eliminar {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#eliminador {
+    box-shadow: 5px 5px 15px;
+    height: 60px;
+    width: 80px;
+    font-size: 25px;
+}
